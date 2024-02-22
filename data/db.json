@@ -4,6 +4,16 @@
       "id": 1,
       "checked": false,
       "task": "my first task "
+    },
+    {
+      "id": 2,
+      "checked": false,
+      "task": "my 2nd task "
+    },
+    {
+      "id": 1,
+      "checked": false,
+      "task": "my 3rd task "
     }
   ]
 }
