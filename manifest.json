@@ -1,0 +1,15 @@
+{
+  "short_name": "Todo List",
+  "name": "My Todo List App",
+  "icons": [
+    {
+      "src": "favicon2.ico",
+      "sizes": "128x128",
+      "type": "mage/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
