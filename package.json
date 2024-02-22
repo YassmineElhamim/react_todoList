@@ -1,7 +1,7 @@
 {
   "name": "todo_list",
   "version": "0.1.0",
-  "homepage": "https://yassmine.github.io/react_todoList",
+  "homepage": "https://YassmineElhamim.github.io/react_todoList",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
