@@ -8,7 +8,7 @@ import apiRequest from './Components/Content/apiRequest';
 
 
 function App() {
-const API_URL='http://localhost:3500/tasks';
+const API_URL='http://localhost:8000/tasks';
 const [tasks, setTasks] = useState([]);
 const [newTask, setNewTask]=useState('');
 const [search, setSearch] = useState(''); 
@@ -71,7 +71,6 @@ const handleCheck = async (id) => {
 const handleDelete = async(id) => {
   const listTasks = tasks.filter((task)=> task.id !==id);
   setTasks(listTasks);
-
   const deleteOptions = {method:'DELETE'};
   const reqUrl = `${API_URL}/${id}`
   const result = await apiRequest(reqUrl,deleteOptions)
